@@ -50,7 +50,7 @@ body {
   margin: 0 auto;
 }
 
-.cat {
+.product__category {
   font-size: initial;
   text-transform: uppercase;
   margin-bottom: 0;
@@ -58,7 +58,7 @@ body {
   color: hsl(228, 12%, 48%);
 }
 
-.title {
+.product__title {
   width: 100%;
   margin: .5em auto;
   font-size: 2rem;
