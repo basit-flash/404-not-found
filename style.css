@@ -52,7 +52,7 @@ h6 {
 body {
   padding: 0;
   margin: 0;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-family: "Montserrat", sans-serif;
   background: hsl(30, 38%, 92%);
 }
@@ -72,7 +72,7 @@ body {
 }
 
 .product__info {
-  padding: 1.5rem;
+  padding: 1.8rem;
 }
 
 .product__category {
@@ -80,10 +80,11 @@ body {
   margin-bottom: 0;
   letter-spacing: 4px;
   color: hsl(228, 12%, 48%);
+  font-size: 0.8rem;
 }
 
 .product__title {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-family: "Fraunces", sans-serif;
   font-weight: 700;
   color: hsl(212, 21%, 14%);
@@ -92,7 +93,7 @@ body {
 }
 
 .product__description {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: hsl(228, 12%, 48%);
 }
 
@@ -130,7 +131,7 @@ body {
   background-color: hsl(158, 36%, 37%);
   color: #ffffff;
   transition: background 250ms ease-in;
-  padding-block: 0.750em;
+  padding-block: 0.850em;
 }
 
 .btn:hover,
@@ -163,11 +164,10 @@ body {
   }
 
   .product__info {
-    padding: 2rem;
     display: grid;
   }
 
   .btn {
-    padding-block: 0.1em;
+    padding-block: 0.5em;
   }
 }
