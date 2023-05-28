@@ -20,39 +20,37 @@
 </head>
 
 <body>
-  <main class="main container">
-    <article class="buy__card row ">
-
+  <main class="main">
+    <article class="product row ">
       <picture class="product__img">
-
-        <source class="product__img--border--desktop" srcset="./images/image-product-desktop.jpg" alt="Chanel Perfume" media="(min-width: 760px)">
+        <source srcset="./images/image-product-desktop.jpg" alt="Chanel Perfume" media="(min-width: 650px)">
         <img src="./images/image-product-mobile.jpg" alt="Chanel Perfume">
       </picture>
 
-      <div class="product__info"">
+      <div class="product__info">
         <p class="product__category">
         PERFUME
         </p>
 
         <h1 class="product__title">Gabrielle Essence </br> Eau De Parfum</h1>
-        <p class="product__about"> A floral, solar and voluptuous <br>interpretation composed by <br> Olivier Polge,
+        <p class="product__description"> A floral, solar and voluptuous <br>interpretation composed by <br> Olivier Polge,
           Perfumer-Creator <br> for the House of CHANEL.
         </p>
 
         <div class="price">
-          <h2 class="new__price">$149.99</h2>
-          <h3 class="old__price">$169.99</h3>
+          <p class="price__current">$149.99</p>
+          <p class="price__original">$169.99</p>
         </div>
 
         <button class="btn" a href="#">
-          <img class="cart__icon" src="/images/icon-cart.svg" alt="">
-          <p>
-            Add to Cart
-          </p>
+          <div class="flex-grow">
+            <img class="btn__cart" src="/images/icon-cart.svg" alt="" >
+            <p>
+              Add to Cart
+            </p>
+          </div>
         </button>
       </div>
-
-
     </article>
   </main>
 
