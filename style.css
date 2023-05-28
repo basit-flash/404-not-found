@@ -123,7 +123,8 @@ body {
 
 .btn {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   font-weight: 700;
   border: none;
